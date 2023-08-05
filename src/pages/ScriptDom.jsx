@@ -64,4 +64,16 @@ const Wrapper = styled.div`
       border-bottom: 1px solid rgba(251, 109, 86, 0.36);
     }
   }
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column-reverse;
+    > ul {
+      width: 90%;
+    }
+    & > span {
+      position: absolute;
+      left: 10px;
+      top: 80px;
+    }
+  }
 `;

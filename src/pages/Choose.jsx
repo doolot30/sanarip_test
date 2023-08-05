@@ -36,4 +36,12 @@ const Wrapper = styled.div`
     height: 60px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   }
+  @media screen and (max-width: 700px) {
+    display: block;
+    width: 60%;
+    > button {
+      width: 100%;
+      margin: 15px 0;
+    }
+  }
 `;
